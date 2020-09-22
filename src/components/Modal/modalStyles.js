@@ -22,16 +22,14 @@ export const ModalBody = styled.div`
 
 export const ModalTitle = styled.div`
     font-weight: 700;
-    margin: 15px 0;
-`;
-
-export const ModalImage = styled.img`
-    max-height: 80vh;
-`;
-
-export const ModalFooter = styled.div`
+    margin-bottom: 15px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    margin: 15px 0;
+    align-items: center;
+`;
+
+export const ModalContent = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
